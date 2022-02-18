@@ -25,10 +25,7 @@ Implement a weapons class, and a human class, that may use this weapon. Create a
 
 ex04:  
 Create a program that will open a file and copies its content into a new file, replacing every occurrence of s1 with s2.  
-(using C++ file manipulation for the first time)
-
-ex05:  
-Implement a class, that displays debug/info/warning/error messages dependent on the level handed over by the main().  
+(using C++ file manipulation for the first time & use more std::string functions to manipulate a string) ex05:  Implement a class, that displays debug/info/warning/error messages dependent on the level handed over by the main().  
 (understanding the use of 'pointers to member functions')
 
 ex06:  
