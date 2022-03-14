@@ -1,4 +1,4 @@
-NAME = karen
+NAME = harl
 CC = c++
 CFLAGS = -Wall -Wextra -Werror
 SRC = main.cpp \
