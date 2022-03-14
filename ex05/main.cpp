@@ -1,18 +1,18 @@
-#include "Karen.hpp"
+#include "Harl.hpp"
 
 int main()
 {
-    Karen   yelling_karen;
+    Harl   yelling_harl;
 
-    yelling_karen.complain("ERROR");
+    yelling_harl.complain("ERROR");
     std::cout << std::endl;
-    yelling_karen.complain("WARNING");
+    yelling_harl.complain("WARNING");
     std::cout << std::endl;
-    yelling_karen.complain("INFO");
+    yelling_harl.complain("INFO");
     std::cout << std::endl;
-    yelling_karen.complain("DEBUG");
+    yelling_harl.complain("DEBUG");
     std::cout << std::endl;
-    yelling_karen.complain("something else");
+    yelling_harl.complain("something else");
 
     return (0);
 }

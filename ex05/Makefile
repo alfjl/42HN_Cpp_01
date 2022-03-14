@@ -2,7 +2,7 @@ NAME = karen
 CC = c++
 CFLAGS = -Wall -Wextra -Werror
 SRC = main.cpp \
-	  Karen.cpp
+	  Harl.cpp
 OBJ = $(patsubst %.cpp,%.o,$(SRC))
 
 .PHONY: all debug clean fclean re
