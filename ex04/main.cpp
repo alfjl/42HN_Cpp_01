@@ -45,6 +45,8 @@ int main(int argc, char *argv[])
                 while (!infile.eof())
                 {
                     getline(infile, buffer);
+                    if (infile.eof())
+                        break ;
                     while ( ( find_position = buffer.find(s1) ) != std::string::npos )
                     {
                         buffer.erase(find_position, s1.length());
