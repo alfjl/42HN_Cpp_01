@@ -3,7 +3,7 @@
 #include <string>
 #include <iostream>
 
-class   Karen
+class   Harl
 {
 private:
     void    debug( void );
@@ -12,8 +12,8 @@ private:
     void    error( void );
 
 public:
-    Karen();
-    ~Karen();
+    Harl();
+    ~Harl();
 
     void    complain( std::string level );
 };

@@ -1,8 +1,8 @@
-#include "Karen.hpp"
+#include "Harl.hpp"
 
 int main(int argc, char *argv[])
 {
-    Karen   yelling_karen;
+    Harl   yelling_harl;
 
     if (argc != 2)
     {
@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
         return (false);
     }
 
-    yelling_karen.complain(argv[1]);
+    yelling_harl.complain(argv[1]);
 
     return (0);
 }
